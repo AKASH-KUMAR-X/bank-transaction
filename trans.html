@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bank Transaction</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Bank Transaction</h1>
+  <div>
+    <p id="uName">Name : AKASH</p>
+    <p>ACC NO :FXX03040568002822</p>
+      
+    </Table>
+  </div>
+  <div id="proces-div">
+  <label for="deposit" class="form">Deposit</label>
+  <input id="deposit" type="number" placeholder="Enter deposit amount">
+  
+  <label for="withdraw" class="form">Withdraw</label>
+  <input id="withdraw" type="number" placeholder="Enter withdraw amount">
+  
+  
+</div>
+<button class="btn" onclick="processTransaction()">Process</button>
+  <p id="result">Current Balance: $0.00</p> 
+
+  
+  <table id="transactionTable">
+    <thead>
+      <tr>
+        <th>Transaction Type</th>
+        <th>Amount ($)</th>
+        <th>Balance ($)</th>
+      </tr>
+    </thead>
+    <tbody>
+      
+    </tbody>
+  </table>
+
+  <script src="script.js"></script> 
+</body>
+</html>
+
